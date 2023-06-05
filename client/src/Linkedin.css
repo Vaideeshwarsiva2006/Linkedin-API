@@ -1,0 +1,62 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 63, 103);
+    color: white;
+}
+
+.title {
+    margin: 10px;
+}
+
+.search {
+    margin-top: 15px;
+}
+
+.main__content {
+    margin: 40px;
+}
+
+p {
+    display: flex;
+}
+
+#userTokenInput {
+    height: 25px;
+    width: 720px;
+}
+
+#userTokenInput:focus {
+    outline: none;
+}
+
+.searchBtn {
+    background-color: rgb(1, 81, 130);
+    height: 31px;
+    border:none;
+    margin-right: 10px;
+    color: white;
+}
+
+.searchBtn:hover {
+    background-color: rgb(0, 113, 184);
+    cursor: pointer;
+}
+
+.accessTokenEx {
+    inline-size: 150px;
+    overflow-wrap: break-word;
+    width: 100%;
+}
+
+p {
+    word-break: break-all;
+}
+
+@media only screen and (max-width: 1200px) {
+    #userTokenInput {
+        height: 25px;
+        width: 220px;
+    }
+    
+  }
